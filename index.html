@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Bernardo Nunes - Designer</title>
+    </p>
+    <link rel="stylesheet" type="text/css" href="styles.css"> 
+    <script src="script.js"></script>
+  </head>
+
+
+
+  <body class="body">
+    <header>
+      <nav>
+        <div  href="index.html"  class="logo"><img src="images/logo.png" alt=""></div>
+        <ul>
+          <li><a class="nav-link"href="#work">Work</a></li>
+          <li><a class="nav-link" href="#grid-section-article">Articles</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li ><a id="header-link" >Contact</a></li>
+        </ul>
+      </nav>      
+    </header>
+    
+    <section id="hero" class="hero">
+    <div class="header-container">
+      <h1 class="name">Bernardo Nunes</h1>
+      <h2 class="title-header">UX/UI Designer</h2>
+      <div class="header-description"> 
+      <p class="intro"> I am a passionate and multidisciplinary UX/UI Designer, who enjoys balancing my love for design with my hobbies of aquascaping, photography, illustration and traveling to be in contact with nature.
+      </p>
+      <button id="show-form-popup" class="button" >Contact me</button>
+    </div>
+    <div>
+      <div class="contact-popup-container" id="contact-popup-container">
+        <div class="overlay"></div>
+        <div class="contact-form-popup">
+          <h3>Contacts</h3>
+          <button id="close-form-popup" class="close-button">X</button>
+            <form>
+                <label for="name">Name:</label>
+                <input class="input" type="text" id="name" name="name">
+    
+                <label for="email">Email:</label>
+                <input class="input" type="email" id="email" name="email">
+    
+                <label for="message">Message:</label>
+                <textarea class="textarea" id="message" name="message"></textarea>
+    
+                <button class="button" type="submit" id="submit-form">Send</button>
+            </form>
+            
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </section>
+      
+
+
+
+
+
+  <section id= "work" class="work">
+    <h2 class="title-section-light" id="title-section-light">My work</h2>
+
+      <section id= "grid-section-work" class="grid-section-work">
+        
+        <div class="card" id="card1" onclick="showPopup('card1')">
+          <img class="card-img" src="images/oerias.png" alt="UX Project 1">
+          <h4 id="card-text" class="card-text">Oeiras Municipality</h4>
+        </div>
+        <div class="card" id="card2" onclick="showPopup('card2')">
+          <img class="card-img" src="images/uporout.png" alt="UX Project 2">
+          <h4 id="card-text" class="card-text">Up or Out</h4>
+        </div>
+        <div class="card" id="card3" onclick="showPopup('card3')">
+          <img class="card-img" src="images/eportugal.png" alt="UX Project 3">
+          <h4 id="card-text" class="card-text">ePortugal - Citizen portal</h4>
+        </div>
+        <div class="card" id="card4" onclick="showPopup('card4')">
+          <img class="card-img" src="images/temporaria.png" alt="UX Project 4">
+          <h4 id="card-text" class="card-text">A Temporária</h4>
+        </div>
+        <div class="card" id="card5" onclick="showPopup('card5')">
+          <img class="card-img" src="images/vivamais.png" alt="UX Project 5">
+          <h4 id="card-text" class="card-text">Viva Mais</h4>
+        </div>
+        <div class="card" id="card6" onclick="showPopup('card6')">
+          <img class="card-img" src="images/exow.png" alt="UX Project 6">
+          <h4 id="card-text" class="card-text">Exow Identity</h4>
+        </div>
+        <div class="card" id="card7" onclick="showPopup('card7')">
+          <img class="card-img" src="images/mentecapto.png" alt="UX Project 8">
+          <h4 id="card-text" class="card-text">Mentecapto</h4>
+        </div>
+
+        <div id="popup" class="popup">
+          <div id="popup-content" class="popup-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <div id="content-wrapper" class="content-wrapper">
+              <h1 id="popup-title" class="popup-title"> Popup Title</h1>
+              <p id="popup-description" class="popup-description">Popup content goes here</p>
+              <p><img id="popup-image" class="popup-image"> </p>
+              <h4 id="section-title" class="section-title">Section title </h4>
+              <p id="popup-overview" class="popup-overview">Popup body goes here</p>
+              <h4 id="section-title2" class="section-title2">Section title </h4>
+              <p id="popup-overview2" class="popup-overview2">Popup body goes here</p>
+            </div>
+          </div>
+      </div>
+      </div>
+    </section>
+  </section>
+
+
+
+<section id="about" class="about">
+  <div class="header-about" id="header-about">
+  <h2 class="title-section-dark" id="title-section-dark">About</h2>
+  <p id="description" class="description"> Bernardo Nunes | UX/UI Designer</p>
+  </div>
+  <div class="about-container"> My passions revolve around illustration, photography, and traveling. I also enjoy the art of aquascaping, creating beautiful and balanced underwater landscapes. I live in Belas, Portugal with my wife and work remotely as a UX/UI Designer.
+
+    I started my career as a salesman at Vodafone to pay for my studies, but soon realized that my true calling was in graphic design. My background in visual arts, combined with my continuous learning in experience design and user insights, led me to pursue a career in UX/UI design.
+    
+    For the past 2 years, I have been a key member of the engineering team at OutSystems. I collaborate with product management to identify improvements and new additions that will positively impact our users. I also create videos to showcase our team's vision for complex user journeys, and work with the product design team to explore solutions and create hi-fi prototypes. Additionally, I assist the UX research team with testing and gathering insights, and am dedicated to improving our team's work by participating in our central practice of UX/UI. I also contribute to the design system by using our libraries and providing feedback on the design of new components and guidelines.
+    
+    My ultimate goal is to create user-friendly experiences that enhance people's lives and bring value to the projects I work on. I am constantly seeking new opportunities to grow and develop my skills in UX/UI design, and bring my passion and expertise to every project I work on.
+
+  </div>
+
+</div>
+</section>
+
+
+<section id="article" class="article">
+    <h2 class="title-section-dark" id="title-section-dark">Articles</h2>
+      <section id= "grid-section-article" class="grid-section-article">
+        <div class="card-article" id="card-article1" >
+          <h3 id="card-text" class="card-text">Article 1</h3>
+          <p>18 December 2023, 10:32am</p>
+          <a href="article1.html">Read More</a>
+        </div>
+        <div class="card-article" id="card-article2" >
+          <h3 id="card-text" class="card-text">Article 2</h3>
+          <p>18 December 2023, 10:32am</p>
+          <a href="article2.html">Read More</a>
+        </div>
+    </section>
+  </section>
+
+
+
+
+  <footer>
+    <div class="footer-container">
+     <div class="social-icons">
+       <a href="https://www.behance.net/yourusername">
+           <img src="images/social_icons/behance.svg" alt="Behance Icon">
+       </a>
+       <a href="https://www.instagram.com/yourusername">
+           <img src="images/social_icons/instagram.svg" alt="Instagram Icon">
+       </a>
+       <a href="https://www.linkedin.com/in/yourusername">
+           <img src="images/social_icons/linkedin.svg" alt="Linkedin Icon">
+       </a>
+      <p class="contacts">bernardo_n@outlook.pt</p>
+      <p class="contacts">+351 91 994 87 24</p>
+   
+ </footer>
+
+
+      
+      
+  </body>
+</html>
