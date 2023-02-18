@@ -53,7 +53,7 @@ body {
   }
 
   .logo img {
-    width: 100px;
+  width: fit-content;
   height: fit-content;
 }
 
