@@ -37,6 +37,53 @@ body {
 }
 
 
+.logo {
+  align-items: left;
+  font-weight: 200px;
+  
+  }
+
+  @media (max-width: 767px) {
+    .logo {
+      align-items: left;
+      font-weight: 48px;
+      
+      }
+  }
+
+  .logo img {
+    width: 100px;
+  height: fit-content;
+}
+
+@media (max-width: 767px) {
+  .logo img {
+    width: 50px;
+  height: fit-content;
+}
+}
+  
+  ul {
+    list-style: none;
+    display: inline-flex;
+  }
+  
+  li {
+    margin-left: 1rem;
+  }
+  
+  .nav-link {
+    color: #333;
+    text-decoration: none;
+  }
+
+  .nav-link:hover {
+    color: rgb(56, 120, 108);
+    text-decoration: underline;
+  }
+
+
+
 .body {
   min-width: 100vw;
   padding: 0;
@@ -62,37 +109,7 @@ body {
 /* make the body to fill the viewport horizontally*/
 
 
-  .logo {
-  align-items: left;
-  font-weight: 200px;
   
-  }
-
-  .logo img {
-    width: 100px;
-  height: fit-content;
-}
-
-  
-  ul {
-    list-style: none;
-    display: inline-flex;
-  }
-  
-  li {
-    margin-left: 1rem;
-  }
-  
-  .nav-link {
-    color: #333;
-    text-decoration: none;
-  }
-
-  .nav-link:hover {
-    color: rgb(56, 120, 108);
-    text-decoration: underline;
-  }
-
 
   .hero {
     position: relative; /* allows the pseudo-element to be positioned relative to the header */
