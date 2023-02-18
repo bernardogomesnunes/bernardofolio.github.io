@@ -39,14 +39,15 @@ body {
 
 .logo {
   align-items: left;
-  font-weight: 200px;
+  width: 20%;
   
   }
 
   @media (max-width: 767px) {
     .logo {
       align-items: left;
-      font-weight: 48px;
+      width: 10%;
+      height: fit-content;
       
       }
   }
