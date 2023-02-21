@@ -59,6 +59,7 @@ padding-right: 8px;
 .logo {
   align-items: left;
   flex-shrink: 0;
+  width: 20%;
 }
 
 .logo img {
