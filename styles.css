@@ -24,8 +24,67 @@ body {
     padding-top: 8px;
     padding-left: 48px;
     padding-right: 48px;
+  }
+  
+  .menu-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .menu-links li {
+    margin-left: 1rem;
+  }
+  
+  .hamburger-menu {
+    display: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  .hamburger-menu span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin-bottom: 5px;
+  }
+  
+  @media (max-width: 767px) {
+    nav {
+      padding-bottom: 16px;
+      padding-top: 16px;
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+    
+    .menu-links {
+      display: none;
+      flex-direction: column;
+      background-color: #ebfaeb;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      padding: 16px;
+    }
+  
+    .menu-links.show {
+      display: flex;
+    }
+  
+    .menu-links li {
+      margin: 0;
+      margin-bottom: 1rem;
+    }
+  
+    .hamburger-menu {
+      display: block;
+    }
+  }
+  
 
-}
 
 
 
