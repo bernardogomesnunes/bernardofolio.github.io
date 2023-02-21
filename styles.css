@@ -50,7 +50,7 @@ body {
   }
   
   
-  @media screen and (max-width: 767px) {
+  @media (max-width: 767px) {
     .navbar-right {
       display: none;
     }
@@ -108,11 +108,9 @@ body {
   }
 }
 
-/*    min-width: 100vw !important;*/
-/* make the body to fill the viewport horizontally*/
 
 
-  
+
 
   .hero {
     position: relative; /* allows the pseudo-element to be positioned relative to the header */
