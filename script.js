@@ -137,9 +137,9 @@ document.getElementById("header-link").addEventListener("click", function() {
 
 }
 
-const navToggle = document.querySelector('.nav-toggle');
-const navMenu = document.querySelector('.nav-menu');
+const navbarIcon = document.querySelector('.navbar-icon');
+const navbarMobile = document.querySelector('.navbar-mobile');
 
-navToggle.addEventListener('click', function() {
-  navMenu.classList.toggle('show');
+navbarIcon.addEventListener('click', () => {
+  navbarMobile.classList.toggle('active');
 });
