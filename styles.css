@@ -110,7 +110,7 @@ body {
 
 
 
-  
+
   
   .menu-links {
     list-style: none;
@@ -137,13 +137,7 @@ body {
     margin-bottom: 5px;
   }
   
-  @media (max-width: 767px) {
-    nav {
-      padding-bottom: 16px;
-      padding-top: 16px;
-      padding-left: 8px;
-      padding-right: 8px;
-    }
+ 
     
     .menu-links {
       display: none;
@@ -168,7 +162,7 @@ body {
     .hamburger-menu {
       display: block;
     }
-  }
+  
 
 
   .logo {
@@ -176,10 +170,7 @@ body {
     height: auto;
   }
   
-  .logo img {
-    max-width: 100%;
-    height: auto;
-  }
+
 
   
   ul {
