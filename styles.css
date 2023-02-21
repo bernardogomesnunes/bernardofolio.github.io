@@ -58,14 +58,12 @@ padding-right: 8px;
 
 .logo {
   align-items: left;
-  
-  }
+  flex-shrink: 0;
+}
 
- 
-
-  .logo img {
-  width: fit-content;
-  height: fit-content;
+.logo img {
+  max-width: 100%;
+  height: auto;
 }
 
 
