@@ -91,6 +91,7 @@ body {
 .logo {
   align-items: left;
   flex-shrink: 0;
+  width: 90px;
 }
 
 .logo img {
