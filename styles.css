@@ -49,18 +49,13 @@ body {
     color: green;
   }
   
-  .navbar-icon {
-    display: block;
-  }
   
   @media screen and (max-width: 767px) {
     .navbar-right {
       display: none;
     }
   
-    .navbar-icon {
-      display: block;
-    }
+  
   
     .navbar-mobile {
       display: none;
