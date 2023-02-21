@@ -25,6 +25,92 @@ body {
     padding-left: 48px;
     padding-right: 48px;
   }
+
+  
+
+
+
+
+  .nav-menu {
+    display: none;
+  }
+  
+  /* This rule makes the hamburger icon visible on small screens */
+  .nav-toggle {
+    display: block;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .hamburger {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: #333;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .hamburger::before,
+  .hamburger::after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: #333;
+    position: absolute;
+  }
+  
+  .hamburger::before {
+    top: -6px;
+  }
+  
+  .hamburger::after {
+    bottom: -6px;
+  }
+  
+  /* This rule shows the nav-menu when the nav-toggle is clicked */
+  .nav-menu.show {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #ebfaeb;
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-menu.show li {
+    margin: 0;
+    text-align: center;
+  }
+  
+  /* This rule hides the nav-menu on large screens */
+  @media (min-width: 768px) {
+    .nav-menu {
+      display: flex;
+      align-items: center;
+    }
+  
+    .nav-menu li {
+      margin-left: 1rem;
+    }
+  
+    .nav-toggle {
+      display: none;
+    }
+  }
+
+
+
+  
   
   .menu-links {
     list-style: none;
@@ -83,7 +169,17 @@ body {
       display: block;
     }
   }
+
+
+  .logo {
+    align-items: left;
+    height: auto;
+  }
   
+  .logo img {
+    max-width: 100%;
+    height: auto;
+  }
 
   
   ul {
