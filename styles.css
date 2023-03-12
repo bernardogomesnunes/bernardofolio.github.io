@@ -46,14 +46,16 @@ body {
     display: block;
     color: rgb(62, 62, 62);
     text-align: center;
-    padding: 14px;
+    padding: 16px;
     text-decoration: none;
+    font-size: 22px;
   }
   
   .navbar a:hover {
     text-decoration: underline;
     color: rgb(109, 117, 109);
   }
+
   
   
   @media (max-width: 767px) {
