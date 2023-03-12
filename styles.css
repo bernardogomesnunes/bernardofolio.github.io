@@ -20,7 +20,7 @@ body {
     overflow: hidden;
     background-color: #b8f5e0;
     font-size: 16px;
-    padding: 48px 16px;
+    padding:  8px 48px;
   }
   
   .navbar-left {
@@ -54,6 +54,16 @@ body {
   
   
   @media (max-width: 767px) {
+
+    .navbar {
+      overflow: hidden;
+      background-color: #b8f5e0;
+      font-size: 16px;
+      padding:  8px 16px;
+    }
+    
+
+
     .navbar-right {
       display: none;
     }
@@ -141,7 +151,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: left;
-    width: 35%;
+    width: 40%;
   }
 
 
@@ -208,6 +218,15 @@ body {
   margin-bottom: 32px;
   color: white;
 }
+
+@media (max-width: 767px) {
+.intro {
+  margin-bottom: 32px;
+  color: white;
+  width: 90%;
+}
+}
+
 
 
   .stop-scrolling {
