@@ -594,12 +594,10 @@ display: none; /* initial state is hidden */
 
 
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .popup {
     display: flex;
     padding-top: 0px;
-    width: 100%; /* Full width */
-    height: 100%;
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
   }
@@ -622,7 +620,7 @@ max-height: calc(100vh - 96px); /* subtract 48px from top and bottom margins */
 padding: 24px;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .popup-content {
     background-color: #fefefe;
     border: 2px solid rgb(182, 215, 197);
