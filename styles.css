@@ -594,7 +594,7 @@ display: none; /* initial state is hidden */
 
 
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .popup {
     display: flex;
     padding-top: 0px;
@@ -620,7 +620,7 @@ max-height: calc(100vh - 96px); /* subtract 48px from top and bottom margins */
 padding: 24px;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .popup-content {
     background-color: #fefefe;
     border: 2px solid rgb(182, 215, 197);
