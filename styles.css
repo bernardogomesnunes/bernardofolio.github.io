@@ -599,10 +599,10 @@ display: none; /* initial state is hidden */
 .popup-content {
   position: absolute;
   top: 50%; /* Position the content in the middle of the screen */
-  left: calc(50% - 448px); /* Center the content horizontally with 48px of margin on each side */
+  left: calc(50% - 424px); /* Center the content horizontally with 48px of margin on each side */
   transform: translate(-50%, -50%); /* Move the content up and left by 50% of its own size */
   padding: 24px; /* 24px padding for the content */
-  width: 896px; /* Width of the content */
+  width: 848px; /* Width of the content */
   max-width: 90%; /* Limit the maximum width of the content to 90% of the screen width */
   height: calc(100% - 112px); /* Take up 100% of the screen height minus 112px for the background */
   max-height: 800px; /* Limit the maximum height of the content */
@@ -621,6 +621,7 @@ display: none; /* initial state is hidden */
     border-radius: 0; /* Remove the border radius */
   }
 }
+
 
 
 
