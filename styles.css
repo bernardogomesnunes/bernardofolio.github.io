@@ -600,7 +600,7 @@ display: none; /* initial state is hidden */
   display: none;
   position: absolute;
   top: 50%; /* Position the content in the middle of the screen */
-  left: calc(50% - 424px); /* Center the content horizontally with 48px of margin on each side */
+  calc(50% - 448px) to calc(50% - 424px)
   transform: translate(-50%, -50%); /* Move the content up and left by 50% of its own size */
   padding: 24px; /* 24px padding for the content */
   width: 728px; /* Width of the content */
