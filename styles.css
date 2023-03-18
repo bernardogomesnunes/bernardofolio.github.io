@@ -599,10 +599,10 @@ display: none; /* initial state is hidden */
 .popup-content {
   position: absolute;
   padding: 24px;
-  width: 800px;
-  max-width: 90%;
+  width: 1000px;
+  max-width: calc(100% - 112px);
   height: calc(100% - 112px);
-  max-height: 800px;
+  max-height: 700px;
   background-color: #fefefe;
   border: 2px solid rgb(182, 215, 197);
   border-radius: 20px;
