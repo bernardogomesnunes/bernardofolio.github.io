@@ -607,6 +607,7 @@ display: none; /* initial state is hidden */
   background-color: #fefefe; /* White background color */
   border: 2px solid rgb(182, 215, 197); /* Green border */
   border-radius: 20px; /* Rounded corners */
+  display: block;
 }
 
 /* Popup styling for smaller devices */
