@@ -598,11 +598,8 @@ display: none; /* initial state is hidden */
 
 .popup-content {
   position: absolute;
-  top: 50%;
-  left: -424px; /* Center the content horizontally with 48px of margin on each side */
-  transform: translate(-50%, -50%);
   padding: 24px;
-  width: 848px;
+  width: 800px;
   max-width: 90%;
   height: calc(100% - 112px);
   max-height: 800px;
@@ -611,6 +608,7 @@ display: none; /* initial state is hidden */
   border-radius: 20px;
   overflow-x: hidden;
 }
+
 
 
 /* Popup styling for smaller devices */
